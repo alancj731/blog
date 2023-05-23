@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose')
 const methodOverride = require('method-override')
 
-const uri = "mongodb+srv://alanchenjian:IloveMongo1340@cluster0.rclm3ng.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://dbuser:<password>@cluster0.rclm3ng.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true
